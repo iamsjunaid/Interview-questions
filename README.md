@@ -38,6 +38,14 @@ The useState() is a built-in React Hook that allows you for having state variabl
 
 In the below-given example code, The useState(0) will return a tuple where the count is the first parameter that represents the counter’s current state and the second parameter setCounter method will allow us to update the state of the counter.
 
+6. Why was virtual DOM introduced? 
+
+DOM manipulation is an integral part of any web application, but DOM manipulation is quite slow when compared to other operations in JavaScript. The efficiency of the application gets affected when several DOM manipulations are being done. Most JavaScript frameworks update the entire DOM even when a small part of the DOM changes.
+
+For example, consider a list that is being rendered inside the DOM. If one of the items in the list changes, the entire list gets rendered again instead of just rendering the item that was changed/updated. This is called inefficient updating.
+
+To address the problem of inefficient updating, the react team introduced the concept of virtual DOM.
+
 ...
 const [count, setCounter] = useState(0);
 const [otherStuffs, setOtherStuffs] = useState(...);
