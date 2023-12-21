@@ -12,3 +12,12 @@ The history of ReactJS started in 2010 with the creation of XHP. XHP is a PHP ex
 The main principle of this extension was to make front-end code easier to understand and to help avoid cross-site scripting attacks. The project was successful to prevent the malicious content submitted by the scrubbing user.
 
 But there was a different problem with XHP in which dynamic web applications require many roundtrips to the server, and XHP did not solve this problem. Also, the whole UI was re-rendered for small change in the application. Later, the initial prototype of React is created with the name FaxJ by Jordan inspired from XHP. Finally after sometime React has been introduced as a new library into JavaScript world.
+
+3. What are the major features of React?
+The major features of React are:
+
+Uses JSX syntax, a syntax extension of JS that allows developers to write HTML in their JS code.
+It uses Virtual DOM instead of Real DOM considering that Real DOM manipulations are expensive.
+Supports server-side rendering which is useful for Search Engine Optimizations(SEO).
+Follows Unidirectional or one-way data flow or data binding.
+Uses reusable/composable UI components to develop the view.
